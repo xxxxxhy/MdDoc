@@ -3,18 +3,18 @@
 ## **1. 标题语法**
 
 根据前边#号的多少定义标题的等级，分别从一个#到六个#，对应一级标题到六级标题
-![标题](./Md_images/Readme/%E6%A0%87%E9%A2%98.jpg "标题")
+![标题](./MdImages/Readme/%E6%A0%87%E9%A2%98.jpg "标题")
 
 ## **2. 段落语法**
 
 段落的创建是使用空白行对文本进行分割，需注意的是不要在段落行前方使用**空格**或者**制表符**缩进段落
-![](./Md_images/Readme/%E6%AE%B5%E8%90%BD.jpg "段落")
+![](./MdImages/Readme/%E6%AE%B5%E8%90%BD.jpg "段落")
 
 ## **3. 换行语法**
 
 在每一行的末尾添加两个或多个**空格**然后**回车**便可以创建一个换行即(space+space+enter)  
 此行便是换行实例，当然了，也可以使用HTML语法规则中的**br**标签进行换行
-![](./Md_images/Readme/%E6%8D%A2%E8%A1%8C.jpg)
+![](./MdImages/Readme/%E6%8D%A2%E8%A1%8C.jpg)
 
 ## **4. 强调语法**
 
@@ -35,7 +35,7 @@
 
 在文本前后添加三个***星号***(*)或者 ___下划线___(_)
 
-![下划线说明](./Md_images/Readme/%E4%B8%8B%E5%88%92%E7%BA%BF.png "下划线说明")
+![下划线说明](./MdImages/Readme/%E4%B8%8B%E5%88%92%E7%BA%BF.png "下划线说明")
 
 ## **5. 引用语法**
 
@@ -49,7 +49,7 @@
 > 这是个多段落块引用
 
 引用可以结合其他的markdown格式元素
-![](./Md_images/Readme/%E5%BC%95%E7%94%A8.png)
+![](./MdImages/Readme/%E5%BC%95%E7%94%A8.png)
 
 ## **6.列表语法**
 
@@ -63,7 +63,7 @@
     1. second-first
 2. third
 
-![](./Md_images/Readme/%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8.jpg)
+![](./MdImages/Readme/%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8.jpg)
 
 ### 无序列表
 
@@ -74,7 +74,7 @@
     + 嵌套无序列表
         + 再嵌套列表
 
-![](./Md_images/Readme/%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8.jpg)
+![](./MdImages/Readme/%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8.jpg)
 
 列表语法较为灵活，可以嵌套多种其他的markdown规则（段落，引用块，代码块，图片，列表）
 
@@ -91,7 +91,7 @@
     matlab
     java
 `
-![](./Md_images/Readme/%E4%BB%A3%E7%A0%81%E5%9D%97.jpg)
+![](./MdImages/Readme/%E4%BB%A3%E7%A0%81%E5%9D%97.jpg)
 
 ## 8. 分隔线语法
 
@@ -106,7 +106,7 @@
 ___
 _分隔线
 
-![](./Md_images/Readme/%E5%88%86%E9%9A%94%E7%BA%BF.png)
+![](./MdImages/Readme/%E5%88%86%E9%9A%94%E7%BA%BF.png)
 
 ## 9. 链接语法
 
@@ -121,8 +121,8 @@ _分隔线
 
 [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
 
-![](./Md_images/Readme/%E9%93%BE%E6%8E%A51.jpg)
-![](./Md_images/Readme/%E9%93%BE%E6%8E%A52.jpg)
+![](./MdImages/Readme/%E9%93%BE%E6%8E%A51.jpg)
+![](./MdImages/Readme/%E9%93%BE%E6%8E%A52.jpg)
 
 ## 10. 图片语法
 
@@ -131,16 +131,16 @@ _分隔线
 插入图片Markdown语法代码：\!\[图片alt]\(图片链接 "图片title"\)。
 
 
-![纯图片链接](./Md_images/Readme/wallhaven-3l9zj3.jpg)
+![纯图片链接](./MdImages/Readme/wallhaven-3l9zj3.jpg)
 
 可以给图片添加链接，将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。
-[![带链接图片](./Md_images/Readme/wallhaven-zym92v.jpg "例图2")](https://wallhaven.cc/)
+[![带链接图片](./MdImages/Readme/wallhaven-zym92v.jpg "例图2")](https://wallhaven.cc/)
 
 ## 11. 转义字符语法
 
 要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。
 
-[![](./Md_images/Readme/%E8%BD%AC%E4%B9%89.jpg)](https://markdown.com.cn/basic-syntax/escaping-characters.html)
+[![](./MdImages/Readme/%E8%BD%AC%E4%B9%89.jpg)](https://markdown.com.cn/basic-syntax/escaping-characters.html)
 
 ## 12. 内嵌HTML标签
 
@@ -151,35 +151,35 @@ _分隔线
 
 ## 1. 表格
 
-![](./Md_images/Readme/%E6%89%A9%E5%B1%95%E8%A1%A8%E6%A0%BC.jpg)
+![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E8%A1%A8%E6%A0%BC.jpg)
 
 ## 2. 围栏代码块
 
-![](./Md_images/Readme/%E6%89%A9%E5%B1%95%E4%BB%A3%E7%A0%81%E5%9D%97.jpg)
+![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E4%BB%A3%E7%A0%81%E5%9D%97.jpg)
 
 ## 3. 脚注
 
-![](./Md_images/Readme/%E6%89%A9%E5%B1%95%E8%84%9A%E6%B3%A8.jpg)
+![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E8%84%9A%E6%B3%A8.jpg)
 
 ## 4. 标题编号
 
-![](./Md_images/Readme/%E6%89%A9%E5%B1%95%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7.jpg)
+![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7.jpg)
 
 ## 5. 定义列表
 
-![](./Md_images/Readme/%E6%89%A9%E5%B1%95%E5%AE%9A%E4%B9%89%E5%88%97%E8%A1%A8.jpg)
+![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E5%AE%9A%E4%B9%89%E5%88%97%E8%A1%A8.jpg)
 
 ## 6. 删除线
 
-![](./Md_images/Readme/%E6%89%A9%E5%B1%95%E5%88%A0%E9%99%A4%E7%BA%BF.jpg)
+![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E5%88%A0%E9%99%A4%E7%BA%BF.jpg)
 
 ## 7. 任务列表
 
-![](./Md_images/Readme/%E6%89%A9%E5%B1%95%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8.jpg)
+![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8.jpg)
 
 ## 8. Emoji
 
-![](./Md_images/Readme/%E6%89%A9%E5%B1%95emoji.jpg)
+![](./MdImages/Readme/%E6%89%A9%E5%B1%95emoji.jpg)
 
 [Emojipedia](https://emojipedia.org/)  
 
@@ -187,4 +187,22 @@ _分隔线
 
 ## 9. 自动网址
 
-![](./Md_images/Readme/%E8%87%AA%E5%8A%A8%E7%BD%91%E5%9D%80.jpg)
+![](./MdImages/Readme/%E8%87%AA%E5%8A%A8%E7%BD%91%E5%9D%80.jpg)
+
+# 补充
+
+## 2022.12.05
+
+问题：**代码块该如何指定语法？**
+
+在代码块的左上方，即三个星号后加上语言类型即可，比如shell脚本语言为sh，python语言为python
+
+```python
+import a
+print("python")
+```
+
+```sh
+# notification
+print(shell)
+```
