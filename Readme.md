@@ -78,7 +78,7 @@
 
 列表语法较为灵活，可以嵌套多种其他的markdown规则（段落，引用块，代码块，图片，列表）
 
-## 7. 代码语法
+## **7. 代码语法**
 
 要将文本表示为代码，应将其包裹在反引号\`中。  
 
@@ -93,7 +93,7 @@
 `
 ![](./MdImages/Readme/%E4%BB%A3%E7%A0%81%E5%9D%97.jpg)
 
-## 8. 分隔线语法
+## **8. 分隔线语法**
 
 要创建分隔线，请在单独一行上使用三个或多个星号 (***)、破折号 (---) 或下划线 (___) ，并且不能包含其他内容。
 
@@ -108,7 +108,7 @@ _分隔线
 
 ![](./MdImages/Readme/%E5%88%86%E9%9A%94%E7%BA%BF.png)
 
-## 9. 链接语法
+## **9. 链接语法**
 
 链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。
 
@@ -124,7 +124,7 @@ _分隔线
 ![](./MdImages/Readme/%E9%93%BE%E6%8E%A51.jpg)
 ![](./MdImages/Readme/%E9%93%BE%E6%8E%A52.jpg)
 
-## 10. 图片语法
+## **10. 图片语法**
 
 要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。
 
@@ -136,48 +136,48 @@ _分隔线
 可以给图片添加链接，将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。
 [![带链接图片](./MdImages/Readme/wallhaven-zym92v.jpg "例图2")](https://wallhaven.cc/)
 
-## 11. 转义字符语法
+## **11. 转义字符语法**
 
 要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。
 
 [![](./MdImages/Readme/%E8%BD%AC%E4%B9%89.jpg)](https://markdown.com.cn/basic-syntax/escaping-characters.html)
 
-## 12. 内嵌HTML标签
+## **12. 内嵌HTML标签**
 
 暂时不用，用得上再看。[链接](https://markdown.com.cn/basic-syntax/htmls.html)
 
 
-# [扩展语法](https://markdown.com.cn/extended-syntax/)
+# **[扩展语法](https://markdown.com.cn/extended-syntax/)**
 
-## 1. 表格
+## **1. 表格**
 
 ![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E8%A1%A8%E6%A0%BC.jpg)
 
-## 2. 围栏代码块
+## **2. 围栏代码块**
 
 ![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E4%BB%A3%E7%A0%81%E5%9D%97.jpg)
 
-## 3. 脚注
+## **3. 脚注**
 
 ![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E8%84%9A%E6%B3%A8.jpg)
 
-## 4. 标题编号
+## **4. 标题编号**
 
 ![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E6%A0%87%E9%A2%98%E7%BC%96%E5%8F%B7.jpg)
 
-## 5. 定义列表
+## **5. 定义列表**
 
 ![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E5%AE%9A%E4%B9%89%E5%88%97%E8%A1%A8.jpg)
 
-## 6. 删除线
+## **6. 删除线**
 
 ![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E5%88%A0%E9%99%A4%E7%BA%BF.jpg)
 
-## 7. 任务列表
+## **7. 任务列表**
 
 ![](./MdImages/Readme/%E6%89%A9%E5%B1%95%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8.jpg)
 
-## 8. Emoji
+## **8. Emoji**
 
 ![](./MdImages/Readme/%E6%89%A9%E5%B1%95emoji.jpg)
 
@@ -185,7 +185,7 @@ _分隔线
 
 [表情符号简码列表](https://gist.github.com/rxaviers/7360908)
 
-## 9. 自动网址
+## **9. 自动网址**
 
 ![](./MdImages/Readme/%E8%87%AA%E5%8A%A8%E7%BD%91%E5%9D%80.jpg)
 
