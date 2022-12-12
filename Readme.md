@@ -207,3 +207,14 @@ print("python")
 # notification
 print(shell)
 ```
+
+## 2022.12.12
+
+问题： **markdown中如何添加latex公式**
+
+分别有两个单$符号包裹起来的表示方式，以及双$符号包裹起来的表示方式
+
+![](./MdImages/Readme/latex.jpg)
+
+> *latex公式语法待日后逐渐补充*
+
