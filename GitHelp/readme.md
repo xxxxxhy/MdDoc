@@ -35,6 +35,20 @@
     git config --global --unset credential.helper
     ```
 
+## **git错误记录**
+
+### **1.gnutls_handshake**
+#### a. TLS connection
+![](../MdImages/GitHelp/TLS_error.png)
+**解决方式**: 由于网络连接失败导致，确定网络状况良好即可解决
+#### b. error in pull function
+![](../MdImages/GitHelp/pull_error.png)
+
+**解决方式**：
+![](../MdImages/GitHelp/pull_error_deal.jpg)
+
+
+
 # **Windows**
 
 ```sh
