@@ -141,39 +141,41 @@ function [flagkx1]=checkcar3_1(z,flagkxsg2d,nzsg2d,zminsg2d,zmaxsg2d,flagf)
 end
 ```
 
-### 杜宾斯曲线
+### 模型点转换
+
 
 ```matlab
-function [ck,L,ssignr,xx,yy,tth]=dubins4(z0,zf,rhomin,obs0,flagkx2d,nz2d,zmin2d,zmax2d,mf)
-lamht=100;
-n0=size(z0,1);nf=size(zf,1);
-% if n0~=nf;
-%     if n0<nf
-%         z0=repmat(z0_(1,:),nf,1);zf=zf_;
-%     elseif n0>nf
-%         zf=repmat(zf_(1,:),n0,1);z0=z0_;
-%     end
-% else
-%     z0=z0_;zf=zf_;
-% end
-n=max(n0,nf);
-signv=z0(:,5);
-xx=zeros(n,mf*3+1);
-yy=xx;
-tth=xx;
-ssignr=zeros(n,3);
-L=zeros(n,4);
-ck=zeros(n,1);
-iqj=signv>0;%前进
-[ck,L,ssignr,xx,yy,tth]=dubins(cto(z0(:,1:3),1),cto(zf(:,1:3),1),iqj,ck,L,ssignr,xx,yy,tth,rhomin,obs0,flagkx2d,nz2d,zmin2d,zmax2d,mf);
-%ck(iqj,:)=ck(iqj,:)+abs(zf(iqj,5)-z0(iqj,5))*lamht;%前进后退代价
-iht=signv<0;%后退
-[ck,L,ssignr,xx,yy,tth]=dubins(cto(zf(:,1:3),-1),cto(z0(:,1:3),-1),iht,ck,L,ssignr,xx,yy,tth,rhomin,obs0,flagkx2d,nz2d,zmin2d,zmax2d,mf);
-xx(iht,:)=flipud(xx(iht,:)')';
-yy(iht,:)=flipud(yy(iht,:)')';
-tth(iht,:)=flipud(tth(iht,:)')';
-L(iht,2:end)=flipud(L(iht,2:end)')';%L2是绝对值
-ssignr(iht,:)=flipud(ssignr(iht,:)')';
-ck=ck+abs(zf(:,5)-z0(:,5))*lamht;%前进后退代价
+function [zz1]=cto(zz,signv)
+% 根据方向将铰接点转为对应的前后车中心点
+    n=size(zz,1);
+    if numel(signv)==1
+        signv1=signv*ones(n,1);
+    end
+    i1=signv1>0;
+    i2=signv1<0;
+    zz1=zz;
+    zz1(i1,1:3)=ctof(zz(i1,1:3));
+    zz1(i2,1:3)=ctor(zz(i2,1:3));
+end
+
+function zf=ctof(z)
+% 铰接点转前车中心点
+    L=1.7184;
+    th=z(:,3);
+    zf=z;
+    zf(:,1:3)=[z(:,1)+L*cos(th),z(:,2)+L*sin(th),th];
+end
+
+function zr=ctor(z)
+% 铰接点转后车中心点
+    L=1.7184;
+    th=z(:,3);
+    zr=z;
+    if size(z,2)>3;
+        d=z(:,4);
+    else
+        d=0*z(:,1);
+    end
+    zr(:,1:3)=[z(:,1)-L*cos(th),z(:,2)-L*sin(th),th-d];
 end
 ```
